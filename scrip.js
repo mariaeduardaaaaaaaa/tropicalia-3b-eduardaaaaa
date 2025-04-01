@@ -3,8 +3,8 @@ document.addEventListener(DOMcontentLoaded ,function(){
 
     let tamanhoatualFonte=1;
 
-aumentarFonteBotao.addEventListener('clik,function'){
+aumentarFonteBotao.addEventListener('clik,function'(){
     tamanhoatualFonte+=0.1;
-    document.body.style.fontSize =${tamanhoatualFonte}rem ;
+    document.body.style.fontSize =`${tamanhoAtualFonte}rem
 });
-})
+});
